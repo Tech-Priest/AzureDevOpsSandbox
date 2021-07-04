@@ -16,6 +16,6 @@ steps:
     command: 'install'
     workingDir: './'
 
-- publish: $(Build.Repository.LocalPath)
+- publish: $(Build.Repository.LocalPath)/project1
   artifact: drop
   displayName: Publish Artifacts
