@@ -1,0 +1,8 @@
+# Prevents uploading testing files to artifacts 
+# in Azure DevOps
+# https://docs.microsoft.com/en-us/azure/devops/artifacts/reference/artifactignore?view=azure-devops
+
+**/node_modules
+**/spec
+**/jasmine.js
+.git/
