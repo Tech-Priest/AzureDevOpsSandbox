@@ -14,7 +14,7 @@ steps:
   displayName: 'Restore NPM packages'
   inputs:
     command: 'install'
-    workingDir: './'
+    workingDir: './project2'
 
 - publish: $(Build.Repository.LocalPath)/project2
   artifact: drop
